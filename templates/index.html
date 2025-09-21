@@ -1,0 +1,104 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="d-flex align-items-center mb-3">
+    <h4 class="mb-0">Theseus Crawler 控制台</h4>
+    <div class="ms-auto d-flex align-items-center gap-2">
+      <span id="statusDot" class="status-dot status-idle" style="width:10px;height:10px;border-radius:50%;display:inline-block;"></span>
+      <span id="statusText" class="text-muted">空闲</span>
+    </div>
+  </div>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <form id="runForm" class="row g-2" onsubmit="return false;">
+        <div class="col-md-8">
+          <label for="url" class="form-label">目标 URL</label>
+          <input type="text" class="form-control" id="url" placeholder="http://localhost" value="http://localhost">
+        </div>
+        <div class="col-md-4 d-flex align-items-end gap-2">
+          <button id="btnRun" class="btn btn-primary" type="button">运行</button>
+          <button id="btnStop" class="btn btn-outline-danger" type="button" disabled>停止</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">实时输出</div>
+    <div class="card-body">
+      <pre id="log" class="log-box"></pre>
+    </div>
+  </div>
+
+  <script>
+      let es = null;
+      const logEl = document.getElementById('log');
+      const urlEl = document.getElementById('url');
+      const btnRun = document.getElementById('btnRun');
+      const btnStop = document.getElementById('btnStop');
+      const statusDot = document.getElementById('statusDot');
+      const statusText = document.getElementById('statusText');
+
+      function setStatus(running) {
+        statusDot.className = 'status-dot ' + (running ? 'status-running' : 'status-stopped');
+        statusText.textContent = running ? '运行中' : '已停止';
+        btnRun.disabled = running;
+        btnStop.disabled = !running;
+      }
+
+      function append(text) {
+        if (!text) return;
+        logEl.textContent += text + '\n';
+        logEl.scrollTop = logEl.scrollHeight;
+      }
+
+      function clearLog() { logEl.textContent = ''; }
+
+      function connectStream(u) {
+        if (es) { es.close(); es = null; }
+        const qs = new URLSearchParams({ url: u });
+        es = new EventSource('/stream?' + qs.toString());
+
+        es.onmessage = (ev) => {
+          append(ev.data);
+        };
+        es.addEventListener('info', (ev) => append('[info] ' + ev.data));
+        es.addEventListener('error', (ev) => append('[error] ' + ev.data));
+        es.addEventListener('done', (ev) => {
+          append('[done] 进程已结束');
+          setStatus(false);
+          es && es.close();
+          es = null;
+        });
+        es.onerror = () => {
+          // Network or server-side close
+          // Don't spam here; basic notice
+        };
+        setStatus(true);
+      }
+
+      btnRun.addEventListener('click', () => {
+        const u = urlEl.value.trim();
+        if (!u) { alert('请输入 URL'); return; }
+        clearLog();
+        connectStream(u);
+      });
+
+      btnStop.addEventListener('click', async () => {
+        try {
+          const resp = await fetch('/stop', { method: 'POST' });
+          const j = await resp.json();
+          append('[info] stop 请求已发送');
+          if (es) { es.close(); es = null; }
+          setStatus(false);
+        } catch (e) {
+          append('[error] 停止失败: ' + e);
+        }
+      });
+
+      // 初始化状态
+      fetch('/status').then(r => r.json()).then(j => {
+        if (j.running) setStatus(true); else setStatus(false);
+      }).catch(() => {});
+  </script>
+{% endblock %}

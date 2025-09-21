@@ -1,0 +1,1190 @@
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:56:03	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:56:05	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:56:05	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:207]	Retry analysis: 4
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:207]	Retry analysis: 1
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:207]	Retry analysis: 3
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:207]	Retry analysis: 2
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:207]	Retry analysis: 5
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Here is an EVENT request action that is about to be triggered in the web application. I will provide relevant information,
+        including the DOM structure related to the event, the JavaScript event handler, and the corresponding action URL for the event.
+        The details are as follows: (1) DOM: current node dom context contains: html: <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>, parent node dom context contains: html: , sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) JavaScript Event: "Event(mouseover, //*[@id=\"ui-datepicker-div\"])"; (3) Action URL: "http://localhost/".
+        
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost" target="_blank"><img src="http://localhost/images/logo.png"></a>, text: , parent node dom context contains: tag_name: div, attributes: <div class="col-md-6" style="position:relative;">
+                <a href="http://localhost" target="_blank"><img src="http://localhost/images/logo.png"></a>
+                <h1 style="font-family:Exo;  font-size: 64px; padding-left:15px; font-weight:400;">Drive Impact</h1>
+                <span class="iq-objects-04 iq-fadebounce">
+				    <span class="iq-round"></span>
+                </span>
+            </div>, text: Drive Impact, sibling nodes dom context contains: sibling node 0 contains: tag_name: h1, attributes: <h1 style="font-family:Exo;  font-size: 64px; padding-left:15px; font-weight:400;">Drive Impact</h1>, text: Drive Impact, sibling node 1 contains: tag_name: span, attributes: <span class="iq-objects-04 iq-fadebounce">
+				    <span class="iq-round"></span>
+                </span>, text: , , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost.
+        
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a form request action about to be submitted from a web application. I will provide relevant information,
+        including the DOM structure of the form, the form's action URL, and key form fields.
+
+        Here is the data: (1) DOM: current node dom context contains: tag_name: form, attributes: <form id="login" action="/" method="post">
+                        <input type="hidden" name="redirectUrl" value="/">
+                        <div class="inputwrapper login-alert">
+                            <div class="alert alert-error"></div>
+                        </div>
+                        <div class="">
+                            <input type="text" name="username" id="username" class="form-control" placeholder="Enter email address" value="">
+                        </div>
+                        <div class="">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" value="">
+                        </div>
+                        <div class="">
+                            <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>
+                            <input type="submit" name="login" value="Login" class="btn btn-primary">
+                        </div>
+
+                    </form>, text: Forgot password?, parent node dom context contains: tag_name: div, attributes: <div class="regcontent" style="margin-left: 90px;">
+                    <form id="login" action="/" method="post">
+                        <input type="hidden" name="redirectUrl" value="/">
+                        <div class="inputwrapper login-alert">
+                            <div class="alert alert-error"></div>
+                        </div>
+                        <div class="">
+                            <input type="text" name="username" id="username" class="form-control" placeholder="Enter email address" value="">
+                        </div>
+                        <div class="">
+                            <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" value="">
+                        </div>
+                        <div class="">
+                            <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>
+                            <input type="submit" name="login" value="Login" class="btn btn-primary">
+                        </div>
+
+                    </form>
+                </div>, text: Forgot password?, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) Action URL: "http://localhost/"; (3) Form fields: Form(dict_keys([('hidden', None, 'redirectUrl', ''), ('text', 'Enter email address', 'username', ''), ('password', 'Enter password', 'password', ''), ('submit', 'Login', 'login', 'Login', None)]), http://localhost/, post).
+        
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>, text: Forgot password?, parent node dom context contains: tag_name: div, attributes: <div class="">
+                            <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>
+                            <input type="submit" name="login" value="Login" class="btn btn-primary">
+                        </div>, text: Forgot password?, sibling nodes dom context contains: sibling node 0 contains: tag_name: input, attributes: <input type="submit" name="login" value="Login" class="btn btn-primary">, text: , , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/resetPassword.
+        
+2025-09-17:14:57:05	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Here is an EVENT request action that is about to be triggered in the web application. I will provide relevant information,
+        including the DOM structure related to the event, the JavaScript event handler, and the corresponding action URL for the event.
+        The details are as follows: (1) DOM: current node dom context contains: html: <input type="submit" name="login" value="Login" class="btn btn-primary">, parent node dom context contains: html: <div class="">
+                            <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>
+                            <input type="submit" name="login" value="Login" class="btn btn-primary">
+                        </div>, sibling nodes dom context contains: sibling node 0 contains: html: <a href="http://localhost/resetPassword" style="float:right; margin-top:10px;">Forgot password?</a>, page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) JavaScript Event: "Event(click, /html/body/div[2]/div[2]/div/div/div[2]/form/div[4]/input)"; (3) Action URL: "http://localhost/".
+        
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:06	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:14:57:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:07	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:08	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:08	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:00:10	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:00:10	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:06:08	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:06:08	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 38
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 31
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 14
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 23
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 8
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 30
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 10
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 35
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 15
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 26
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 33
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 22
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 9
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 36
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 12
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 19
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 29
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 37
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 25
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 34
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 17
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 7
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 13
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 16
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 24
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 18
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 20
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 28
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 11
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 32
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 27
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:207]	Retry analysis: 21
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/134">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(41466681)&lt;/script&gt;</a>, text: </title></option><script>xss(41466681)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/134">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(41466681)&lt;/script&gt;</a></li>, text: </title></option><script>xss(41466681)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/134.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/43">"'&gt;&lt;script&gt;xss(85759080)&lt;/script&gt;</a>, text: "'><script>xss(85759080)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/43">"'&gt;&lt;script&gt;xss(85759080)&lt;/script&gt;</a></li>, text: "'><script>xss(85759080)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/43.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/index.php?logout=1">
+                <i class="fa fa-sign-out-alt" aria-hidden="true"></i> Sign Out            </a>, text: Sign Out, parent node dom context contains: tag_name: li, attributes: <li class="border">
+            <a href="http://localhost/index.php?logout=1">
+                <i class="fa fa-sign-out-alt" aria-hidden="true"></i> Sign Out            </a>
+        </li>, text: Sign Out, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/index.php?logout=1.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/122">"'&gt;&lt;script&gt;xss(56465161)&lt;/script&gt;</a>, text: "'><script>xss(56465161)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/122">"'&gt;&lt;script&gt;xss(56465161)&lt;/script&gt;</a></li>, text: "'><script>xss(56465161)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/122.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/users/editOwn/">
+                <span class="fa fa-user"></span> My Profile            </a>, text: My Profile, parent node dom context contains: tag_name: li, attributes: <li>
+            <a href="http://localhost/users/editOwn/">
+                <span class="fa fa-user"></span> My Profile            </a>
+        </li>, text: My Profile, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/users/editOwn.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/65">"'&gt;&lt;script&gt;xss(83315992)&lt;/script&gt;</a>, text: "'><script>xss(83315992)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/65">"'&gt;&lt;script&gt;xss(83315992)&lt;/script&gt;</a></li>, text: "'><script>xss(83315992)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/65.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/clients/showAll"><span class="fa fa-address-book"></span> View All Clients</a>, text: View All Clients, parent node dom context contains: tag_name: li, attributes: <li><a href="http://localhost/clients/showAll"><span class="fa fa-address-book"></span> View All Clients</a></li>, text: View All Clients, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/clients/showAll.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/73">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(25592045)&lt;/script&gt;</a>, text: </title></option><script>xss(25592045)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/73">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(25592045)&lt;/script&gt;</a></li>, text: </title></option><script>xss(25592045)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/73.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/showMy">
+            <span class="head-icon fa fa-briefcase"></span><span class="headmenu-label">My Portfolio</span>        </a>, text: My Portfolio, parent node dom context contains: tag_name: li, attributes: <li>
+        <a href="http://localhost/projects/showMy">
+            <span class="head-icon fa fa-briefcase"></span><span class="headmenu-label">My Portfolio</span>        </a>
+    </li>, text: My Portfolio, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/showMy.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/58">"'&gt;&lt;script&gt;xss(75294290)&lt;/script&gt;</a>, text: "'><script>xss(75294290)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/58">"'&gt;&lt;script&gt;xss(75294290)&lt;/script&gt;</a></li>, text: "'><script>xss(75294290)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/58.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/28">"'&gt;&lt;script&gt;xss(96903329)&lt;/script&gt;</a>, text: "'><script>xss(96903329)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/28">"'&gt;&lt;script&gt;xss(96903329)&lt;/script&gt;</a></li>, text: "'><script>xss(96903329)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/28.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/13">"'&gt;&lt;script&gt;xss(51867423)&lt;/script&gt;</a>, text: "'><script>xss(51867423)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/13">"'&gt;&lt;script&gt;xss(51867423)&lt;/script&gt;</a></li>, text: "'><script>xss(51867423)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/13.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/showAll"><span class="fa fa-suitcase"></span> View All Projects</a>, text: View All Projects, parent node dom context contains: tag_name: li, attributes: <li><a href="http://localhost/projects/showAll"><span class="fa fa-suitcase"></span> View All Projects</a></li>, text: View All Projects, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/showAll.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/114">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(25592045)&lt;/script&gt;</a>, text: </title></option><script>xss(25592045)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/114">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(25592045)&lt;/script&gt;</a></li>, text: </title></option><script>xss(25592045)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/114.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/setting/editCompanySettings/">
+                        <span class="fa fa-cogs"></span> Company Settings                    </a>, text: Company Settings, parent node dom context contains: tag_name: li, attributes: <li>
+                    <a href="http://localhost/setting/editCompanySettings/">
+                        <span class="fa fa-cogs"></span> Company Settings                    </a>
+                </li>, text: Company Settings, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/setting/editCompanySettings.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/115">"'&gt;&lt;script&gt;xss(81769869)&lt;/script&gt;</a>, text: "'><script>xss(81769869)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/115">"'&gt;&lt;script&gt;xss(81769869)&lt;/script&gt;</a></li>, text: "'><script>xss(81769869)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/115.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/127">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(38982882)&lt;/script&gt;</a>, text: </title></option><script>xss(38982882)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/127">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(38982882)&lt;/script&gt;</a></li>, text: </title></option><script>xss(38982882)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/127.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/151">"'&gt;&lt;script&gt;xss(68663278)&lt;/script&gt;</a>, text: "'><script>xss(68663278)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/151">"'&gt;&lt;script&gt;xss(68663278)&lt;/script&gt;</a></li>, text: "'><script>xss(68663278)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/151.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/48">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(13622798)&lt;/script&gt;</a>, text: </title></option><script>xss(13622798)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/48">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(13622798)&lt;/script&gt;</a></li>, text: </title></option><script>xss(13622798)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/48.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/calendar/showMyCalendar">
+            <span class="head-icon iconfa-calendar"></span><span class="headmenu-label">My Calendar</span>        </a>, text: My Calendar, parent node dom context contains: tag_name: li, attributes: <li>
+        <a href="http://localhost/calendar/showMyCalendar">
+            <span class="head-icon iconfa-calendar"></span><span class="headmenu-label">My Calendar</span>        </a>
+    </li>, text: My Calendar, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/calendar/showMyCalendar.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a class="barmenu open" href="javascript:void(0);"></a>, text: , parent node dom context contains: tag_name: div, attributes: <div class="logo" style="margin-left: 0px;">
+            <a class="barmenu open" href="javascript:void(0);"></a>
+            <a href="http://localhost" style="background-image:url('http://localhost/images/logo.png')">&nbsp;</a>
+        </div>, text: , sibling nodes dom context contains: sibling node 0 contains: tag_name: a, attributes: <a href="http://localhost" style="background-image:url('http://localhost/images/logo.png')">&nbsp;</a>, text: , , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: javascript:void(0);class_name:barmenu opentext:.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="javascript:void(0);" onclick="leantime.helperController.showHelperModal('dashboard');">
+                <span class="fa fa-map-signs"></span> Show me around            </a>, text: Show me around, parent node dom context contains: tag_name: li, attributes: <li>
+            <a href="javascript:void(0);" onclick="leantime.helperController.showHelperModal('dashboard');">
+                <span class="fa fa-map-signs"></span> Show me around            </a>
+        </li>, text: Show me around, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: javascript:void(0);onclick:leantime.helperController.showHelperModal('dashboard');text:Show me around.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/timesheets/showMy/">
+                <span class="head-icon fa fa-clock-o"></span><span class="headmenu-label">My Timesheets</span>            </a>, text: My Timesheets, parent node dom context contains: tag_name: li, attributes: <li>
+            <a href="http://localhost/timesheets/showMy/">
+                <span class="head-icon fa fa-clock-o"></span><span class="headmenu-label">My Timesheets</span>            </a>
+        </li>, text: My Timesheets, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/timesheets/showMy.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/108">"'&gt;&lt;script&gt;xss(61129262)&lt;/script&gt;</a>, text: "'><script>xss(61129262)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/108">"'&gt;&lt;script&gt;xss(61129262)&lt;/script&gt;</a></li>, text: "'><script>xss(61129262)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/108.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/general/logout/">
+            <span class="head-icon fa fa-sign-out-alt"></span>        </a>, text: , parent node dom context contains: tag_name: li, attributes: <li class="hidden-gt-sm">
+        <a href="http://localhost/general/logout/">
+            <span class="head-icon fa fa-sign-out-alt"></span>        </a>
+    </li>, text: , sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/general/logout.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/144">"'&gt;&lt;script&gt;xss(19107578)&lt;/script&gt;</a>, text: "'><script>xss(19107578)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/144">"'&gt;&lt;script&gt;xss(19107578)&lt;/script&gt;</a></li>, text: "'><script>xss(19107578)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/144.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/101">"'&gt;&lt;script&gt;xss(80192138)&lt;/script&gt;</a>, text: "'><script>xss(80192138)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/101">"'&gt;&lt;script&gt;xss(80192138)&lt;/script&gt;</a></li>, text: "'><script>xss(80192138)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/101.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/users/showAll/">
+                    <span class="fa fa-users"></span> User Management                </a>, text: User Management, parent node dom context contains: tag_name: li, attributes: <li>
+                <a href="http://localhost/users/showAll/">
+                    <span class="fa fa-users"></span> User Management                </a>
+            </li>, text: User Management, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/users/showAll.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/79">"'&gt;&lt;script&gt;xss(92682633)&lt;/script&gt;</a>, text: "'><script>xss(92682633)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/79">"'&gt;&lt;script&gt;xss(92682633)&lt;/script&gt;</a></li>, text: "'><script>xss(92682633)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/79.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/136">"'&gt;&lt;script&gt;xss(76388753)&lt;/script&gt;</a>, text: "'><script>xss(76388753)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/136">"'&gt;&lt;script&gt;xss(76388753)&lt;/script&gt;</a></li>, text: "'><script>xss(76388753)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/136.
+        
+2025-09-17:15:07:08	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/75">"'&gt;&lt;script&gt;xss(29628498)&lt;/script&gt;</a>, text: "'><script>xss(29628498)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/75">"'&gt;&lt;script&gt;xss(29628498)&lt;/script&gt;</a></li>, text: "'><script>xss(29628498)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/75.
+        
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:07:09	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:07:10	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:07:10	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:10:10	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:10:10	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:207]	Retry analysis: 40
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:207]	Retry analysis: 39
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:207]	Retry analysis: 42
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:207]	Retry analysis: 43
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:207]	Retry analysis: 41
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/83">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(44001178)&lt;/script&gt;</a>, text: </title></option><script>xss(44001178)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/83">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(44001178)&lt;/script&gt;</a></li>, text: </title></option><script>xss(44001178)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/83.
+        
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/128">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(44001178)&lt;/script&gt;</a>, text: </title></option><script>xss(44001178)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/128">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(44001178)&lt;/script&gt;</a></li>, text: </title></option><script>xss(44001178)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/128.
+        
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/18">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(61918208)&lt;/script&gt;</a>, text: </title></option><script>xss(61918208)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/18">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(61918208)&lt;/script&gt;</a></li>, text: </title></option><script>xss(61918208)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/18.
+        
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/64">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(61918208)&lt;/script&gt;</a>, text: </title></option><script>xss(61918208)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/64">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(61918208)&lt;/script&gt;</a></li>, text: </title></option><script>xss(61918208)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/64.
+        
+2025-09-17:15:11:10	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/63">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(48645597)&lt;/script&gt;</a>, text: </title></option><script>xss(48645597)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/63">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(48645597)&lt;/script&gt;</a></li>, text: </title></option><script>xss(48645597)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/63.
+        
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:11	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:13	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:13	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:13	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:13	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:11:16	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:11:16	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:14:12	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:17:13	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:17:13	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:17:14	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:17:14	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:17:16	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:17:16	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:20:13	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:20:13	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:20:13	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:20:13	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:20:13	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:20:13	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:20:13	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:20:13	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 51
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 72
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 52
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 56
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 49
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 73
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 59
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 45
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 63
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 74
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 55
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 48
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 53
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 50
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 69
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 57
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 60
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 44
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 68
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 62
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 47
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 65
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 61
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 71
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 67
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 58
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 66
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 46
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 54
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 64
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 75
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:207]	Retry analysis: 70
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/120">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(9532464)&lt;/script&gt;</a>, text: </title></option><script>xss(9532464)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/120">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(9532464)&lt;/script&gt;</a></li>, text: </title></option><script>xss(9532464)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/120.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/14">&lt;img src="x" onerror="xss(39080797)"&gt;</a>, text: <img src="x" onerror="xss(39080797)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/14">&lt;img src="x" onerror="xss(39080797)"&gt;</a></li>, text: <img src="x" onerror="xss(39080797)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/14.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/68">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(96962879)&lt;/script&gt;</a>, text: </title></option><script>xss(96962879)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/68">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(96962879)&lt;/script&gt;</a></li>, text: </title></option><script>xss(96962879)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/68.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/103">&lt;a href="" jaekpot-attribute="20633010"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="20633010">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/103">&lt;a href="" jaekpot-attribute="20633010"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="20633010">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/103.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/33">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(80744771)&lt;/script&gt;</a>, text: </title></option><script>xss(80744771)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/33">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(80744771)&lt;/script&gt;</a></li>, text: </title></option><script>xss(80744771)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/33.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/29">&lt;img src="x" onerror="xss(42604170)"&gt;</a>, text: <img src="x" onerror="xss(42604170)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/29">&lt;img src="x" onerror="xss(42604170)"&gt;</a></li>, text: <img src="x" onerror="xss(42604170)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/29.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/124">&lt;a href="" jaekpot-attribute="29517013"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="29517013">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/124">&lt;a href="" jaekpot-attribute="29517013"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="29517013">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/124.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/78">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(77043465)&lt;/script&gt;</a>, text: </title></option><script>xss(77043465)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/78">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(77043465)&lt;/script&gt;</a></li>, text: </title></option><script>xss(77043465)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/78.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/131">&lt;a href="" jaekpot-attribute="51782051"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="51782051">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/131">&lt;a href="" jaekpot-attribute="51782051"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="51782051">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/131.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/102">&lt;img src="x" onerror="xss(5380210)"&gt;</a>, text: <img src="x" onerror="xss(5380210)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/102">&lt;img src="x" onerror="xss(5380210)"&gt;</a></li>, text: <img src="x" onerror="xss(5380210)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/102.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/67">&lt;a href="" jaekpot-attribute="13826748"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="13826748">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/67">&lt;a href="" jaekpot-attribute="13826748"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="13826748">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/67.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/156">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(79187179)&lt;/script&gt;</a>, text: </title></option><script>xss(79187179)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/156">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(79187179)&lt;/script&gt;</a></li>, text: </title></option><script>xss(79187179)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/156.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/113">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(99688298)&lt;/script&gt;</a>, text: </title></option><script>xss(99688298)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/113">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(99688298)&lt;/script&gt;</a></li>, text: </title></option><script>xss(99688298)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/113.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/141">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(91312574)&lt;/script&gt;</a>, text: </title></option><script>xss(91312574)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/141">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(91312574)&lt;/script&gt;</a></li>, text: </title></option><script>xss(91312574)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/141.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/137">&lt;img src="x" onerror="xss(16947975)"&gt;</a>, text: <img src="x" onerror="xss(16947975)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/137">&lt;img src="x" onerror="xss(16947975)"&gt;</a></li>, text: <img src="x" onerror="xss(16947975)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/137.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/30">&lt;a href="" jaekpot-attribute="22139742"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="22139742">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/30">&lt;a href="" jaekpot-attribute="22139742"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="22139742">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/30.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/153">&lt;a href="" jaekpot-attribute="37428934"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="37428934">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/153">&lt;a href="" jaekpot-attribute="37428934"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="37428934">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/153.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/149">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(6671723)&lt;/script&gt;</a>, text: </title></option><script>xss(6671723)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/149">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(6671723)&lt;/script&gt;</a></li>, text: </title></option><script>xss(6671723)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/149.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/60">&lt;a href="" jaekpot-attribute="97431984"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="97431984">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/60">&lt;a href="" jaekpot-attribute="97431984"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="97431984">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/60.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/81">&lt;a href="" jaekpot-attribute="42583343"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="42583343">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/81">&lt;a href="" jaekpot-attribute="42583343"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="42583343">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/81.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/142">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(78763731)&lt;/script&gt;</a>, text: </title></option><script>xss(78763731)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/142">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(78763731)&lt;/script&gt;</a></li>, text: </title></option><script>xss(78763731)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/142.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/15">&lt;a href="" jaekpot-attribute="67222612"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="67222612">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/15">&lt;a href="" jaekpot-attribute="67222612"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="67222612">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/15.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/45">&lt;a href="" jaekpot-attribute="41595803"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="41595803">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/45">&lt;a href="" jaekpot-attribute="41595803"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="41595803">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/45.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/116">&lt;img src="x" onerror="xss(29390060)"&gt;</a>, text: <img src="x" onerror="xss(29390060)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/116">&lt;img src="x" onerror="xss(29390060)"&gt;</a></li>, text: <img src="x" onerror="xss(29390060)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/116.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/110">&lt;a href="" jaekpot-attribute="95888986"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="95888986">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/110">&lt;a href="" jaekpot-attribute="95888986"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="95888986">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/110.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/117">&lt;a href="" jaekpot-attribute="28294995"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="28294995">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/117">&lt;a href="" jaekpot-attribute="28294995"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="28294995">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/117.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/138">&lt;a href="" jaekpot-attribute="67375030"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="67375030">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/138">&lt;a href="" jaekpot-attribute="67375030"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="67375030">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/138.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/106">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(77278709)&lt;/script&gt;</a>, text: </title></option><script>xss(77278709)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/106">&lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(77278709)&lt;/script&gt;</a></li>, text: </title></option><script>xss(77278709)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/106.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/146">&lt;a href="" jaekpot-attribute="13621274"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="13621274">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/146">&lt;a href="" jaekpot-attribute="13621274"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="13621274">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/146.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/70">&lt;a href="" jaekpot-attribute="58032440"&gt;jaekpot&lt;/a&gt;</a>, text: <a href="" jaekpot-attribute="58032440">jaekpot</a>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/70">&lt;a href="" jaekpot-attribute="58032440"&gt;jaekpot&lt;/a&gt;</a></li>, text: <a href="" jaekpot-attribute="58032440">jaekpot</a>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/70.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/130">&lt;img src="x" onerror="xss(59732615)"&gt;</a>, text: <img src="x" onerror="xss(59732615)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/130">&lt;img src="x" onerror="xss(59732615)"&gt;</a></li>, text: <img src="x" onerror="xss(59732615)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/130.
+        
+2025-09-17:15:21:13	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/76">&lt;img src="x" onerror="xss(18659471)"&gt;</a>, text: <img src="x" onerror="xss(18659471)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/76">&lt;img src="x" onerror="xss(18659471)"&gt;</a></li>, text: <img src="x" onerror="xss(18659471)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/76.
+        
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:21:14	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:27:16	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:27:16	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:207]	Retry analysis: 78
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:207]	Retry analysis: 76
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:207]	Retry analysis: 79
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:207]	Retry analysis: 80
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:207]	Retry analysis: 77
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/44">&lt;img src="x" onerror="xss(72130257)"&gt;</a>, text: <img src="x" onerror="xss(72130257)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/44">&lt;img src="x" onerror="xss(72130257)"&gt;</a></li>, text: <img src="x" onerror="xss(72130257)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/44.
+        
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/59">&lt;img src="x" onerror="xss(66035853)"&gt;</a>, text: <img src="x" onerror="xss(66035853)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/59">&lt;img src="x" onerror="xss(66035853)"&gt;</a></li>, text: <img src="x" onerror="xss(66035853)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/59.
+        
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/109">&lt;img src="x" onerror="xss(78743170)"&gt;</a>, text: <img src="x" onerror="xss(78743170)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/109">&lt;img src="x" onerror="xss(78743170)"&gt;</a></li>, text: <img src="x" onerror="xss(78743170)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/109.
+        
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/80">&lt;img src="x" onerror="xss(79504164)"&gt;</a>, text: <img src="x" onerror="xss(79504164)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/80">&lt;img src="x" onerror="xss(79504164)"&gt;</a></li>, text: <img src="x" onerror="xss(79504164)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/80.
+        
+2025-09-17:15:28:16	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/66">&lt;img src="x" onerror="xss(66429899)"&gt;</a>, text: <img src="x" onerror="xss(66429899)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/66">&lt;img src="x" onerror="xss(66429899)"&gt;</a></li>, text: <img src="x" onerror="xss(66429899)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/66.
+        
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:17	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:28:19	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:28:19	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:31:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:31:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:31:18	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:31:18	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:31:19	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:31:19	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:31:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:31:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:31:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:31:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:34:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:34:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:37:19	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:37:19	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 107
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 112
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 103
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 85
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 84
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 100
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 90
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 108
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 82
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 94
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 95
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 92
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 81
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 106
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 83
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 99
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 101
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 110
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 105
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 109
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 104
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 86
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 96
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 91
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 102
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 88
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 87
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 97
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 111
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 93
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 89
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:207]	Retry analysis: 98
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/61">x" jaekpot-attribute="90639575" fix=" </a>, text: x" jaekpot-attribute="90639575" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/61">x" jaekpot-attribute="90639575" fix=" </a></li>, text: x" jaekpot-attribute="90639575" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/61.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/140">x" onerror="xss(14969904)"</a>, text: x" onerror="xss(14969904)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/140">x" onerror="xss(14969904)"</a></li>, text: x" onerror="xss(14969904)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/140.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/147">x" jaekpot-attribute="46884008" fix=" </a>, text: x" jaekpot-attribute="46884008" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/147">x" jaekpot-attribute="46884008" fix=" </a></li>, text: x" jaekpot-attribute="46884008" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/147.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/107">&lt;script&gt;xss(24843057)&lt;/script&gt;</a>, text: <script>xss(24843057)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/107">&lt;script&gt;xss(24843057)&lt;/script&gt;</a></li>, text: <script>xss(24843057)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/107.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/121">&lt;script&gt;xss(11720261)&lt;/script&gt;</a>, text: <script>xss(11720261)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/121">&lt;script&gt;xss(11720261)&lt;/script&gt;</a></li>, text: <script>xss(11720261)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/121.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/16">x" jaekpot-attribute="39553032" fix=" </a>, text: x" jaekpot-attribute="39553032" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/16">x" jaekpot-attribute="39553032" fix=" </a></li>, text: x" jaekpot-attribute="39553032" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/16.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/150">&lt;script&gt;xss(45043888)&lt;/script&gt;</a>, text: <script>xss(45043888)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/150">&lt;script&gt;xss(45043888)&lt;/script&gt;</a></li>, text: <script>xss(45043888)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/150.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/125">x" jaekpot-attribute="90879717" fix=" </a>, text: x" jaekpot-attribute="90879717" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/125">x" jaekpot-attribute="90879717" fix=" </a></li>, text: x" jaekpot-attribute="90879717" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/125.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/145">&lt;img src="x" onerror="xss(94678757)"&gt;</a>, text: <img src="x" onerror="xss(94678757)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/145">&lt;img src="x" onerror="xss(94678757)"&gt;</a></li>, text: <img src="x" onerror="xss(94678757)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/145.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/57">&lt;script&gt;xss(86531390)&lt;/script&gt;</a>, text: <script>xss(86531390)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/57">&lt;script&gt;xss(86531390)&lt;/script&gt;</a></li>, text: <script>xss(86531390)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/57.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/143">&lt;script&gt;xss(88041878)&lt;/script&gt;</a>, text: <script>xss(88041878)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/143">&lt;script&gt;xss(88041878)&lt;/script&gt;</a></li>, text: <script>xss(88041878)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/143.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/100">&lt;script&gt;xss(83450878)&lt;/script&gt;</a>, text: <script>xss(83450878)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/100">&lt;script&gt;xss(83450878)&lt;/script&gt;</a></li>, text: <script>xss(83450878)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/100.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/123">&lt;img src="x" onerror="xss(92686830)"&gt;</a>, text: <img src="x" onerror="xss(92686830)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/123">&lt;img src="x" onerror="xss(92686830)"&gt;</a></li>, text: <img src="x" onerror="xss(92686830)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/123.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/154">x" jaekpot-attribute="87543165" fix=" </a>, text: x" jaekpot-attribute="87543165" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/154">x" jaekpot-attribute="87543165" fix=" </a></li>, text: x" jaekpot-attribute="87543165" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/154.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/152">&lt;img src="x" onerror="xss(96345325)"&gt;</a>, text: <img src="x" onerror="xss(96345325)">, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/152">&lt;img src="x" onerror="xss(96345325)"&gt;</a></li>, text: <img src="x" onerror="xss(96345325)">, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/152.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/104">x" jaekpot-attribute="38787685" fix=" </a>, text: x" jaekpot-attribute="38787685" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/104">x" jaekpot-attribute="38787685" fix=" </a></li>, text: x" jaekpot-attribute="38787685" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/104.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/118">x" jaekpot-attribute="41685733" fix=" </a>, text: x" jaekpot-attribute="41685733" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/118">x" jaekpot-attribute="41685733" fix=" </a></li>, text: x" jaekpot-attribute="41685733" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/118.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/46">x" jaekpot-attribute="97774404" fix=" </a>, text: x" jaekpot-attribute="97774404" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/46">x" jaekpot-attribute="97774404" fix=" </a></li>, text: x" jaekpot-attribute="97774404" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/46.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/71">x" jaekpot-attribute="83312645" fix=" </a>, text: x" jaekpot-attribute="83312645" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/71">x" jaekpot-attribute="83312645" fix=" </a></li>, text: x" jaekpot-attribute="83312645" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/71.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/111">x" jaekpot-attribute="94877580" fix=" </a>, text: x" jaekpot-attribute="94877580" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/111">x" jaekpot-attribute="94877580" fix=" </a></li>, text: x" jaekpot-attribute="94877580" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/111.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/31">x" jaekpot-attribute="69805407" fix=" </a>, text: x" jaekpot-attribute="69805407" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/31">x" jaekpot-attribute="69805407" fix=" </a></li>, text: x" jaekpot-attribute="69805407" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/31.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/135">&lt;script&gt;xss(27134225)&lt;/script&gt;</a>, text: <script>xss(27134225)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/135">&lt;script&gt;xss(27134225)&lt;/script&gt;</a></li>, text: <script>xss(27134225)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/135.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/69">&lt;script&gt;xss(95984700)&lt;/script&gt;</a>, text: <script>xss(95984700)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/69">&lt;script&gt;xss(95984700)&lt;/script&gt;</a></li>, text: <script>xss(95984700)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/69.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/74">&lt;script&gt;xss(60372334)&lt;/script&gt;</a>, text: <script>xss(60372334)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/74">&lt;script&gt;xss(60372334)&lt;/script&gt;</a></li>, text: <script>xss(60372334)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/74.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/77">x" jaekpot-attribute="45063843" fix=" </a>, text: x" jaekpot-attribute="45063843" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/77">x" jaekpot-attribute="45063843" fix=" </a></li>, text: x" jaekpot-attribute="45063843" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/77.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/27">&lt;script&gt;xss(37610638)&lt;/script&gt;</a>, text: <script>xss(37610638)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/27">&lt;script&gt;xss(37610638)&lt;/script&gt;</a></li>, text: <script>xss(37610638)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/27.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/129">&lt;script&gt;xss(34197127)&lt;/script&gt;</a>, text: <script>xss(34197127)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/129">&lt;script&gt;xss(34197127)&lt;/script&gt;</a></li>, text: <script>xss(34197127)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/129.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/132">x" jaekpot-attribute="27436397" fix=" </a>, text: x" jaekpot-attribute="27436397" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/132">x" jaekpot-attribute="27436397" fix=" </a></li>, text: x" jaekpot-attribute="27436397" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/132.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/62">x" onerror="xss(12194150)"</a>, text: x" onerror="xss(12194150)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/62">x" onerror="xss(12194150)"</a></li>, text: x" onerror="xss(12194150)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/62.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/42">&lt;script&gt;xss(85435210)&lt;/script&gt;</a>, text: <script>xss(85435210)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/42">&lt;script&gt;xss(85435210)&lt;/script&gt;</a></li>, text: <script>xss(85435210)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/42.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/12">&lt;script&gt;xss(38061210)&lt;/script&gt;</a>, text: <script>xss(38061210)</script>, parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/12">&lt;script&gt;xss(38061210)&lt;/script&gt;</a></li>, text: <script>xss(38061210)</script>, sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/12.
+        
+2025-09-17:15:38:19	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/139">x" jaekpot-attribute="33821165" fix=" </a>, text: x" jaekpot-attribute="33821165" fix=", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/139">x" jaekpot-attribute="33821165" fix=" </a></li>, text: x" jaekpot-attribute="33821165" fix=", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/139.
+        
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:38:20	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:38:21	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:38:21	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:44:24	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:44:24	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:207]	Retry analysis: 114
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:207]	Retry analysis: 115
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:207]	Retry analysis: 113
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:207]	Retry analysis: 117
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:207]	Retry analysis: 116
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/72">x" onerror="xss(23480151)"</a>, text: x" onerror="xss(23480151)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/72">x" onerror="xss(23480151)"</a></li>, text: x" onerror="xss(23480151)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/72.
+        
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/126">x" onerror="xss(31841998)"</a>, text: x" onerror="xss(31841998)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/126">x" onerror="xss(31841998)"</a></li>, text: x" onerror="xss(31841998)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/126.
+        
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/47">x" onerror="xss(19112758)"</a>, text: x" onerror="xss(19112758)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/47">x" onerror="xss(19112758)"</a></li>, text: x" onerror="xss(19112758)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/47.
+        
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/133">x" onerror="xss(63329451)"</a>, text: x" onerror="xss(63329451)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/133">x" onerror="xss(63329451)"</a></li>, text: x" onerror="xss(63329451)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/133.
+        
+2025-09-17:15:45:24	llm	INFO	[llm_analysis.py:257]	Found same prompt: 
+
+        Below is a URL request action that is about to be executed. I will provide relevant information,
+        including the DOM structure of the element that triggered the request, the element type, as well as the full URL path and its parameters.
+        Here is the data: (1) DOM: current node dom context contains: tag_name: a, attributes: <a href="http://localhost/projects/changeCurrentProject/105">x" onerror="xss(41878810)"</a>, text: x" onerror="xss(41878810)", parent node dom context contains: tag_name: li, attributes: <li class="client_"><a href="http://localhost/projects/changeCurrentProject/105">x" onerror="xss(41878810)"</a></li>, text: x" onerror="xss(41878810)", sibling nodes dom context contains: , page title: &lt;/title&gt;&lt;/option&gt;&lt;script&gt;xss(98174872)&lt;/script&gt;; (2) ELEMENT TYPE: "a"; (3) URL: http://localhost/projects/changeCurrentProject/105.
+        
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:25	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:27	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:27	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:27	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:27	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:45:28	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:45:28	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:48:26	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:48:27	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:48:27	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:51:27	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:51:27	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:51:27	llm	ERROR	[llm_analysis.py:169]	Parsing error: Expecting value: line 1 column 1 (char 0)
+2025-09-17:15:51:27	llm	ERROR	[llm_analysis.py:170]	Failed to parse response: 
+2025-09-17:15:54:27	llm	ERROR	[llm_analysis.py:139]	LLM API error: Request timed out.
+2025-09-17:15:54:27	llm	WARNING	[llm_analysis.py:152]	Failed to identify resource operation: {}

@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="d-flex align-items-center mb-3">
+    <h4 class="mb-0">结果文件</h4>
+  </div>
+  {% if not items %}
+    <div class="alert alert-info">当前没有 .txt 结果文件</div>
+  {% else %}
+    <div class="table-responsive">
+      <table class="table table-sm align-middle">
+        <thead>
+          <tr>
+            <th>路径</th>
+            <th>大小</th>
+            <th>修改时间</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for it in items %}
+          <tr>
+            <td><code>{{ it.relpath }}</code></td>
+            <td>{{ it.size_h }}</td>
+            <td>{{ it.mtime_h }}</td>
+            <td>
+              <a class="btn btn-sm btn-primary" href="/results/view?path={{ it.relpath | urlencode }}">查看</a>
+              <a class="btn btn-sm btn-outline-secondary" href="/results/raw?path={{ it.relpath | urlencode }}" target="_blank">下载</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endif %}
+{% endblock %}

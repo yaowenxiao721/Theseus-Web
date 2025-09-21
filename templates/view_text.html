@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="d-flex align-items-center mb-3">
+    <h5 class="mb-0">查看：<code>{{ meta.relpath }}</code></h5>
+    <div class="ms-auto text-muted">大小：{{ meta.size_h }} | 修改时间：{{ meta.mtime_h }}</div>
+  </div>
+
+  <div class="mb-3">
+    <a href="{{ back_url }}" class="btn btn-sm btn-secondary">返回列表</a>
+    {% if nav_active == 'logs' %}
+      <a class="btn btn-sm btn-outline-secondary" href="/logs/raw?file={{ meta.relpath | urlencode }}" target="_blank">下载</a>
+      <div class="btn-group ms-2">
+        <a class="btn btn-sm btn-outline-primary" href="/logs/view?file={{ meta.relpath | urlencode }}&lines=200">尾部200行</a>
+        <a class="btn btn-sm btn-outline-primary" href="/logs/view?file={{ meta.relpath | urlencode }}&lines=1000">尾部1000行</a>
+        <a class="btn btn-sm btn-outline-primary" href="/logs/view?file={{ meta.relpath | urlencode }}&lines=0">全部</a>
+      </div>
+    {% else %}
+      <a class="btn btn-sm btn-outline-secondary" href="/results/raw?path={{ meta.relpath | urlencode }}" target="_blank">下载</a>
+      <div class="btn-group ms-2">
+        <a class="btn btn-sm btn-outline-primary" href="/results/view?path={{ meta.relpath | urlencode }}&lines=200">尾部200行</a>
+        <a class="btn btn-sm btn-outline-primary" href="/results/view?path={{ meta.relpath | urlencode }}&lines=1000">尾部1000行</a>
+        <a class="btn btn-sm btn-outline-primary" href="/results/view?path={{ meta.relpath | urlencode }}&lines=0">全部</a>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <pre class="log-box">{{ content }}</pre>
+    </div>
+  </div>
+{% endblock %}
